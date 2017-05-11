@@ -118,11 +118,11 @@
 		for (var j = 0; j < obj.children.length; j++) {
 			for (var i = 0; i < obj.children[j].children.length; i++) {
 				for (var k = 0; k < obj.children[j].children[i].children.length; k++) {
-					completeChild(obj.children[j].children[i].children[k].children, json.Categories.Type);
+					valueChild(obj.children[j].children[i].children[k].children, json.Categories.Type);
 				}
 			}
 		}
-		for (var j = 0; j < obj.children.length; j++) {
+		/*for (var j = 0; j < obj.children.length; j++) {
 			for (var i = 0; i < obj.children[j].children.length; i++) {
 				for (var k = 0; k < obj.children[j].children[i].children.length; k++) {
 					for (var l = 0; l < obj.children[j].children[i].children[k].children.length; l++) {
@@ -136,7 +136,7 @@
 					}
 				}
 			}
-		}
+		}*/
 
 	}
 
