@@ -31,7 +31,7 @@ d3.json("flare.json", function(error, root) {
   var g = svg.selectAll("g")
       .data(partition.nodes(root))
     .enter().append("g");
-
+console.log(partition.nodes(root));
   var path = g.append("path")
     .attr("d", arc)
     .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
@@ -45,6 +45,7 @@ d3.json("flare.json", function(error, root) {
     .text(function(d) { return d.name; });
 
   function click(d) {
+	  
     // fade out all text elements
     text.transition().attr("opacity", 0);
 
