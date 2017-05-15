@@ -1,0 +1,13 @@
+{
+	"Categories":{
+		"Class":["Druid","Hunter","Mage","Neutral","Paladin","Preist","Rogue","Shaman","Warlock","Warrior" ],
+		"Format":["Standard", "Wild"],
+		"Type":["Minion", "Weapon", "Spell"],
+		"Rarity":["Common", "Rare", "Epic", "Legendary"],
+		"ExpansionStd":[["Basic", 133],["Classic", 239], ["Whispers of the Old Gods", 134],
+			 ["One Night in Karazhan", 45], ["Mean Streets of Gadgetzan", 132],
+			 ["Journey to UnGoro", 135]],
+		"ExpansionWild":[["Curse of Naxxramas", 30], ["Goblins vs Gnomes", 124],
+			["Blackrock Mountain", 30], ["The Grand Tournament", 131], ["League of Explorers", 45]]
+	}
+}

@@ -45,7 +45,7 @@ console.log(partition.nodes(root));
     .text(function(d) { return d.name; });
 
   function click(d) {
-	  
+
     // fade out all text elements
     text.transition().attr("opacity", 0);
 
@@ -60,7 +60,7 @@ console.log(partition.nodes(root));
             // fade in the text element and recalculate positions
             arcText.transition().duration(750)
               .attr("opacity", 1)
-              .attr("transform", function() { return "rotate(" + computeTextRotation(e) + ")" })
+              .attr("transform", function() { return "rotate(" + computeTextRotation(e) + ")"; })
               .attr("x", function(d) { return y(d.y); });
           }
       });
