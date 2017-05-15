@@ -205,4 +205,178 @@ function computeTextRotation(d) {
 	return (x(d.x + d.dx / 2) - Math.PI / 2) / Math.PI * 180;
 }
 
+function findColor(obj){
+	var name = obj.name;
+	switch (name) {
+		case "Cards":
+			return "#fff";
+
+		case "Standard":
+			return "#fa0";
+		case "Basic":
+			return "#9b7b43";
+		case "Classic":
+			return "#6d4519";
+		case "Whispers of the Old Gods":
+			return "#763bac";
+		case "One Night in Karazhan":
+			return "#ce5ae2";
+		case "Mean Streets of Gadgetzan":
+			return "#4a41c9";
+		case "Journey to Un'Goro":
+			return "#9b9a97";
+
+		case "Wild":
+			return "#705d50";
+		case "Curse of Naxxramas":
+			return "#1568cc";
+		case "Goblins vs Gnomes":
+			return "#547f46";
+		case "Blackrock Mountain":
+			return "#efb126";
+		case "The Grand Tournament":
+			return "#e54141";
+		case "League of Explorers":
+			return "#ffee1a";
+
+		case "Neutral":
+			return "#c1c1c1";
+		case "Warlock":
+			return "#601966";
+		case "Warrior":
+			return "#A51c1c";
+		case "Shaman":
+			return "#0d2068";
+		case "Hunter":
+			return "#285611";
+		case "Druid":
+			return "#724b11";
+		case "Paladin":
+			return "#fcdc22";
+		case "Mage":
+			return "#1568cc";
+		case "Rogue":
+			return "#2d2d2d";
+		case "Priest":
+			return "#fcda70";
+		default:
+			switch (obj.parent.name) {
+				case "Neutral":
+					return "#c1c1c1";
+				case "Warlock":
+					if (name == "Minion") {
+						lastcolor ="#7c2d7f";
+						return "#7c2d7f";
+					}else if (name == "Spell") {
+						lastcolor ="#bb6bc1";
+						return "#bb6bc1";
+					}else{
+						lastcolor ="#d782e0";
+						return "#d782e0";
+					}
+					break;
+				case "Warrior":
+					if (name == "Minion") {
+						lastcolor ="#af3333";
+						return "#af3333";
+					}else if (name == "Spell") {
+						lastcolor ="#c14040";
+						return "#c14040";
+					}else{
+						lastcolor ="#e26060";
+						return "#e26060";
+					}
+					break;
+				case "Shaman":
+					if (name == "Minion") {
+						lastcolor ="#162b91";
+						return "#162b91";
+					}else if (name == "Spell") {
+						lastcolor ="#2843a5";
+						return "#2843a5";
+					}else{
+						lastcolor ="#4c6abf";
+						return "#4c6abf";
+					}
+					break;
+				case "Hunter":
+					if (name == "Minion") {
+						lastcolor ="#427f1f";
+						return "#427f1f";
+					}else if (name == "Spell") {
+						lastcolor ="#65ad36";
+						return "#65ad36";
+					}else{
+						lastcolor ="#87ce59";
+						return "#87ce59";
+					}
+					break;
+				case "Druid":
+					if (name == "Minion") {
+						lastcolor ="#8c622a";
+						return "#8c622a";
+					}else if (name == "Spell") {
+						lastcolor ="#a57e50";
+						return "#a57e50";
+					}else{
+						lastcolor ="#ba9979";
+						return "#ba9979";
+					}
+					break;
+				case "Paladin":
+					if (name == "Minion") {
+						lastcolor ="#ffe255";
+						return "#ffe255";
+					}else if (name == "Spell") {
+						lastcolor ="#ffe578";
+						return "#ffe578";
+					}else{
+						lastcolor ="#ffea94";
+						return "#ffea94";
+					}
+					break;
+				case "Mage":
+					if (name == "Minion") {
+						lastcolor ="#3d80b7";
+						return "#3d80b7";
+					}else if (name == "Spell") {
+						lastcolor ="#5c95bc";
+						return "#5c95bc";
+					}else{
+						lastcolor ="#75abc9";
+						return "#75abc9";
+					}
+					break;
+				case "Rogue":
+					if (name == "Minion") {
+						lastcolor ="#3f3f3f";
+						return "#3f3f3f";
+					}else if (name == "Spell") {
+						lastcolor ="#515151";
+						return "#515151";
+					}else{
+						lastcolor ="#666";
+						return "#666";
+					}
+					break;
+				case "Priest":
+					if (name == "Minion") {
+						lastcolor ="#ffe497";
+						return "#ffe497";
+					}else if (name == "Spell") {
+						lastcolor ="#ffebb8";
+						return "#ffebb8";
+					}else{
+						lastcolor ="#fcebc5";
+						return "#fcebc5";
+					}
+					break;
+				default:
+					return lastcolor;
+			}
+			return "#fcda70";
+		}
+	}
+
+
 }());

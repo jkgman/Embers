@@ -1918,7 +1918,8 @@
 		"Race":"Dragon",
 		"Class":"Neutral",
 		"Type":"Minion",
-		"Effect":"Battlecry; Destroy; Discard"
+		"Effect":"Battlecry; Destroy; Discard",
+		"Pic":"deathwing.png"
 		},
 		{
 		"Name":"Sea Giant",
@@ -2772,7 +2773,8 @@
 		"Race":"null",
 		"Class":"Neutral",
 		"Type":"Minion",
-		"Effect":"Charge; Battlecry; Summon"
+		"Effect":"Charge; Battlecry; Summon",
+		"Pic":"leeroy.png"
 		},
 		{
 		"Name":"Silver Hand Knight",
@@ -7551,7 +7553,8 @@
 		,"Race":"null"
 		,"Class":"Neutral"
 		,"Type":"Minion"
-		,"Effect":"Whenever; Summon"
+		,"Effect":"Whenever; Summon",
+		"Pic":"grimpatron.png"
 		},
 		{
 		 "Name":"Axe Flinger"
@@ -14585,7 +14588,8 @@
 		"Race":"Beast",
 		"Class":"Neutral",
 		"Type":"Minion",
-		"Effect":"Deathrattle; Shuffle"
+		"Effect":"Deathrattle; Shuffle",
+		"Pic":"weasel.png"
 		},
 		{
 		"Name":"Counterfeit Coin",
@@ -14923,7 +14927,8 @@
 		"Race":"null",
 		"Class":"Paladin",
 		"Type":"Spell",
-		"Effect":"Give; Taunt; Summon"
+		"Effect":"Give; Taunt; Summon",
+		"Pic":"spikerigded.png"
 		},
 		{
 		"Name":"Cruel Dinomancer",
@@ -15203,7 +15208,8 @@
 		"Race":"null",
 		"Class":"Rogue",
 		"Type":"Minion",
-		"Effect":"Combo; Destroy"
+		"Effect":"Combo; Destroy",
+		"Pic":"Vilespine.png"
 		},
 		{
 		"Name":"Obsidian Shard",
@@ -15623,7 +15629,8 @@
 		"Race":"Elemental",
 		"Class":"Shaman",
 		"Type":"Minion",
-		"Effect":"Taunt; Battlecry; Restore"
+		"Effect":"Taunt; Battlecry; Restore",
+		"Pic":"hotspring.png"
 		},
 		{
 		"Name":"Humongous Razorleaf",
@@ -16127,7 +16134,8 @@
 		"Race":"Beast",
 		"Class":"Neutral",
 		"Type":"Minion",
-		"Effect":"Taunt; Poisonous"
+		"Effect":"Taunt; Poisonous",
+		"Pic":"gary.png"
 		},
 		{
 		"Name":"Tortollan Forager",
